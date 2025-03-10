@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: Dart API Server
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    buildCommand: dart pub get
+    startCommand: dart run bin/main.dart
