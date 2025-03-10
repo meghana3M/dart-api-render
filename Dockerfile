@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8080
 
 # Run the application
-CMD ["dart", "run", "bin/Car.dart"]
+CMD ["dart", "run", "bin/dart_application_1.dart"]
